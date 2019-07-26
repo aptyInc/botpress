@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Redirect } from 'react-router-dom'
-import logo from '../../media/nobg_white.png'
+import logo from '../../media/logo_white.svg'
 
 import { Alert, Card, CardBody, CardTitle, Button, Input, FormGroup, CardText } from 'reactstrap'
 import { setActiveWorkspace } from '../../Auth'
@@ -58,7 +58,7 @@ export default class Register extends Component {
   renderForm = () => {
     return (
       <Fragment>
-        <CardTitle>Botpress Admin Panel</CardTitle>
+        <CardTitle>apty automation Admin Panel</CardTitle>
         <CardText>This is the first time you run Botpress. Please create the master admin account.</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <FormGroup>

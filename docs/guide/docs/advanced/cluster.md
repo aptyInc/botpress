@@ -69,7 +69,7 @@ services:
 
 6. Start your Botpress node using Docker compose with this command: `docker-compose -f server.yml up -d`
 
-   - Open your browser and access the Botpress Admin Panel
+   - Open your browser and access the apty automation Admin Panel
    - In the upper right corner, open the menu and click `Server settings`
    - Purchase or enter your license key, then close the server.
    - Edit the `server.yml` file and add your Redis configuration in the `environment` section:

@@ -158,7 +158,7 @@ export class BotsRouter extends CustomRouter {
       gaId: gaId,
       flowEditorDisabled: !process.IS_LICENSED,
       botpress: {
-        name: 'Botpress Studio',
+        name: 'apty automation studio',
         version: process.BOTPRESS_VERSION
       }
     }
@@ -191,7 +191,7 @@ export class BotsRouter extends CustomRouter {
               // Lite Views Specific
           `
         const studioEnv = `
-              // Botpress Studio Specific
+              // apty automation studio Specific
               window.AUTH_TOKEN_DURATION = ${data.authentication.tokenDuration};
               window.SEND_USAGE_STATS = ${data.sendUsageStats};
               window.BOTPRESS_FLOW_EDITOR_DISABLED = ${data.flowEditorDisabled};

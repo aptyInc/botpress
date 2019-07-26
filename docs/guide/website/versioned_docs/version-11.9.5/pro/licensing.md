@@ -21,7 +21,7 @@ Before we move on, make sure to have the followings :
 
 ### Create Botpress account
 
-In order to buy a pro license, you need to create an account on our botpress licensing server (different from the account you created to access your botpress installation). To do so, open your Botpress admin and go to My Account in your user top right menu.
+In order to buy a pro license, you need to create an account on our botpress licensing server (different from the account you created to access your botpress installation). To do so, open your apty automation Admin and go to My Account in your user top right menu.
 
 ![BP account menu](assets/bp-account-menu.jpg)
 

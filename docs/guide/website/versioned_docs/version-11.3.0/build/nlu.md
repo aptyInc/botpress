@@ -95,7 +95,7 @@ To enable debugging of the NLU module, make sure that `debugModeEnabled` is set 
 
 ##### Example of debugging message
 
-NLU Extraction 
+NLU Extraction
 ```js
 { text: 'they there bud',
   intent: 'hello',
@@ -204,7 +204,7 @@ An example of placeholder entity would be : Please tell **Sarah** that **she's l
 
 ### Custom Entities
 
-As of today we provide 2 types of custom entites: [pattern](#pattern-extraction) and [list](#list-extraction) entitites. To define a custom entity, head to the __Entity section__ of the Understanding Module in your botpress studio side bar. From there you'll be able to define your custom entities that will be available for any input message treated by your chatbot. Go ahead and click on __create new entity__
+As of today we provide 2 types of custom entites: [pattern](#pattern-extraction) and [list](#list-extraction) entitites. To define a custom entity, head to the __Entity section__ of the Understanding Module in your apty automation studio side bar. From there you'll be able to define your custom entities that will be available for any input message treated by your chatbot. Go ahead and click on __create new entity__
 
 <img src="/docs/assets/nlu-create-entity.png">
 
@@ -291,7 +291,7 @@ Extraction will go like:
 ]
 ```
 
-## Slots 
+## Slots
 
 Slots are another major concept in Botpress NLU. You can think of them as necessary __parameters__ to complete the action associated to an intent.
 
@@ -299,7 +299,7 @@ Slots are another major concept in Botpress NLU. You can think of them as necess
 
 Botpress Native NLU will tag each _words_ (tokens) of user input. If it's correctly identified as an intent slot it will be attached to NLU extraction event. Each identified slot will be accessible in the `event.nlu.slots` map using its name as key.
 
-To define a slot for a particular intent, head to the __Intent section__ of the Understanding Module in your Botpress Studio side bar. From there select the intent you want to add slots to, then you'll be able to define your slots. Go ahead and click on __create a slot__
+To define a slot for a particular intent, head to the __Intent section__ of the Understanding Module in your apty automation studio side bar. From there select the intent you want to add slots to, then you'll be able to define your slots. Go ahead and click on __create a slot__
 
 ![create slot](assets/nlu-create-slot.png)
 
@@ -344,7 +344,7 @@ If for some reason you want to use an external provider, you can do so by using 
 
 ### Example
 
-You can enable **Recast AI** by removing the `.` prefix to the `hooks/before_incoming_middleware/.05_recast_nlu.js` file. 
+You can enable **Recast AI** by removing the `.` prefix to the `hooks/before_incoming_middleware/.05_recast_nlu.js` file.
 
 > Feel free to contribute to Botpress to add new external NLU providers
 

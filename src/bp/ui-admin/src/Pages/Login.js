@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Redirect } from 'react-router-dom'
-import logo from '../media/nobg_white.png'
+import logo from '../media/logo_white.svg'
 import api from '../api'
 import { setActiveWorkspace } from '../Auth'
 import { Alert, Card, CardBody, CardTitle, Button, Input, FormGroup, CardText } from 'reactstrap'
@@ -85,7 +85,7 @@ export default class Login extends Component {
   renderForm = () => {
     return (
       <Fragment>
-        <CardTitle>Botpress Admin Panel</CardTitle>
+        <CardTitle>apty automation Admin Panel</CardTitle>
         <CardText>Login</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <FormGroup>
@@ -120,7 +120,7 @@ export default class Login extends Component {
   renderExternal() {
     return (
       <Fragment>
-        <CardTitle>Botpress Admin Panel</CardTitle>
+        <CardTitle>apty automation Admin Panel</CardTitle>
         <CardText>Login</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <p>

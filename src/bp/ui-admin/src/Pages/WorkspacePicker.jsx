@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import { Card, CardBody } from 'reactstrap'
 
 import { setActiveWorkspace } from '../Auth'
-import logo from '../media/nobg_white.png'
+import logo from '../media/logo_white.svg'
 import api from '../api'
 
 class WorkspacePicker extends Component {

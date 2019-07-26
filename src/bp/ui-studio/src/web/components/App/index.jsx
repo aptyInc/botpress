@@ -20,7 +20,7 @@ import {
 
 class App extends Component {
   componentWillMount() {
-    const appName = window.APP_NAME || 'Botpress Studio'
+    const appName = window.APP_NAME || 'apty automation studio'
     const botName = window.BOT_NAME ? ` – ${window.BOT_NAME}` : ''
     window.document.title = `${appName}${botName}`
 

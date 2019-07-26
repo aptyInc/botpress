@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 import { fetchLicensing } from '../reducers/license'
 
-import logo from '../media/logo_white.png'
+import logo from '../media/logo_white.svg'
 import UserDropdownMenu from './UserDropdownMenu'
 
 class App extends Component {
