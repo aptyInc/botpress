@@ -112,7 +112,7 @@ const buildModules = () => {
   const tasks = modules.map(m => {
     const config = readModuleConfig(m)
     const moduleName = _.get(config, 'name', 'Unknown')
-    const taskName = `build-module ${moduleName}`
+    const taskName = `build-module ${moduleName} --max-old-space-size=8000`
     gulp.task(taskName, cb => {
       buildModule(m, cb)
     })
