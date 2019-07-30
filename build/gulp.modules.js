@@ -112,17 +112,12 @@ const buildModules = () => {
   let tasks = modules.map(m => {
     const config = readModuleConfig(m)
     const moduleName = _.get(config, 'name', 'Unknown')
-    if (moduleName === 'analytics') {
-      return '';
-    }
-    const taskName = `build-module ${moduleName} --max_old_space_size=16000`
+    const taskName = `build-module ${moduleName}`
     gulp.task(taskName, cb => {
       buildModule(m, cb)
     })
     return taskName
   })
-
-  tasks = tasks.filter(task => !!task);
 
   if (yn(process.env.GULP_PARALLEL)) {
     return gulp.parallel(tasks)
