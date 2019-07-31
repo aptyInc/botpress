@@ -1,0 +1,19 @@
+{
+  "name": "login-module",
+  "version": "1.0.0",
+  "description": "SSO login With SFL",
+  "main": "dist/backend/index.js",
+  "author": "Apty Inc.",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "./node_modules/.bin/module-builder build",
+    "watch": "./node_modules/.bin/module-builder watch"
+  },
+  "devDependencies": {
+    "module-builder": "../../build/module-builder"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "simple-oauth2": "2.2.1"
+  }
+}
