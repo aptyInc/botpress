@@ -85,7 +85,7 @@ export default class Login extends Component {
   renderForm = () => {
     return (
       <Fragment>
-        <CardTitle>apty automation Admin Panel</CardTitle>
+        <CardTitle>Apty Automation Admin Panel</CardTitle>
         <CardText>Login</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <FormGroup>
@@ -120,7 +120,7 @@ export default class Login extends Component {
   renderExternal() {
     return (
       <Fragment>
-        <CardTitle>apty automation Admin Panel</CardTitle>
+        <CardTitle>Apty Automation Admin Panel</CardTitle>
         <CardText>Login</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <p>

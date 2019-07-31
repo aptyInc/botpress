@@ -20,7 +20,7 @@ import {
 
 class App extends Component {
   componentWillMount() {
-    const appName = window.APP_NAME || 'apty automation studio'
+    const appName = window.APP_NAME || 'Apty Automation Studio'
     const botName = window.BOT_NAME ? ` – ${window.BOT_NAME}` : ''
     window.document.title = `${appName}${botName}`
 

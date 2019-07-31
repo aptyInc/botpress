@@ -62,7 +62,7 @@ export default class ChangePassword extends Component {
 
     return (
       <Fragment>
-        <CardTitle>apty automation Admin Panel</CardTitle>
+        <CardTitle>Apty Automation Admin Panel</CardTitle>
         <CardText>{this.getReasonText()}</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <FormGroup>

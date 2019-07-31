@@ -58,7 +58,7 @@ export default class Register extends Component {
   renderForm = () => {
     return (
       <Fragment>
-        <CardTitle>apty automation Admin Panel</CardTitle>
+        <CardTitle>Apty Automation Admin Panel</CardTitle>
         <CardText>This is the first time you run Botpress. Please create the master admin account.</CardText>
         {this.state.error && <Alert color="danger">{this.state.error}</Alert>}
         <FormGroup>
