@@ -7,8 +7,10 @@ if (event.type === 'proactive-trigger') {
     threadId: event.threadId
   }
 
-  event.setFlag(bp.IO.WellKnownFlags.SKIP_DIALOG_ENGINE, true);
-  bp.cms.renderElement('builtin_text', { text: "I'm so proactive!", typing: true }, eventDestination).then(payloads => {
-    bp.events.replyToEvent(event, payloads)
-  })
+  if (event.state.session.lastMessages.length) {
+    event.setFlag(bp.IO.WellKnownFlags.SKIP_DIALOG_ENGINE, true);
+    bp.cms.renderElement('builtin_text', { text: "Hello, Welcome to apty automation.", typing: true }, eventDestination).then(payloads => {
+      bp.events.replyToEvent(event, payloads)
+    })
+  }
 }
