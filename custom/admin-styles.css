@@ -1,0 +1,20 @@
+head title {
+  content: 'Apty Automation Admin';
+}
+
+.bot_views .btn-link {
+  color: #ff4001 !important;
+}
+.bot_views .btn-link:hover {
+  color: #b42d00 !important;
+}
+
+.bot_views .title a {
+  color: #ff4001 !important;
+}
+.bot_views .title a:hover {
+  color: #b42d00 !important;
+}
+.bot_views .title a:focus {
+  outline: 2px auto #ff4001 !important;
+}

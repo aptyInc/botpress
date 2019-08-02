@@ -1,0 +1,15 @@
+.btn-secondary, .btn-primary, .bp3-intent-primary {
+  background-color: #ff4001 !important;
+  border-color: #ff4001 !important;
+}
+.btn-secondary:active, .btn-primary:active, .bp3-intent-primary:active {
+  background-color: #cd3300 !important;
+  border-color: #c03000 !important;
+}
+.btn-secondary:hover, .btn-primary:hover, .bp3-intent-primary:hover {
+  background-color: #da3600 !important;
+  border-color: #cd3300 !important;
+}
+.btn-secondary:focus, .btn-primary:focus, .bp3-intent-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,93,39,.5) !important;
+}

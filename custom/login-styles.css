@@ -1,0 +1,24 @@
+.centered-container .logo {
+  content: url(logo.svg);
+}
+
+.bp-header__logo {
+  content: url(logo.svg);
+}
+
+.bp-header__logo:after {
+  content: 'Apty Automation';
+}
+
+.login-box .card-title {
+  display: inline-block;
+  color: white;
+  line-height: 0;
+}
+
+.login-box .card-title:after {
+  content: 'Apty Automation Admin';
+  font-weight: bold;
+  color: black;
+  display: block;
+}

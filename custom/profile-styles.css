@@ -1,0 +1,11 @@
+.profile img {
+  content: url(botpress-nav-icon.svg);
+  width: 100px;
+  height: 100px;
+}
+
+.bp3-minimal img {
+  content: url(botpress-nav-icon.svg);
+  width: 30px;
+  height: 30px;
+}
