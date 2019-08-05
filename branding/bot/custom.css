@@ -1,0 +1,69 @@
+
+.bpw-bot-avatar {
+  content: url(images/apty.svg)
+}
+
+.bpw-chat-bubble {
+  border-radius: 20px !important;
+}
+
+/* user chat bubble*/
+.bpw-from-user .bpw-chat-bubble {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* bot chat bubble*/
+.bpw-from-bot .bpw-chat-bubble {
+  background-color: #F4F7F9;
+}
+
+/* keyboard quick reply*/
+.bpw-button {
+  border-radius: 20px !important;
+  border: 2px solid #E2E9EE;
+}
+
+.bpw-keyboard-quick_reply {
+  background-color: inherit !important;
+}
+
+.bpw-button:hover {
+  background-color: #F4F7F9;
+  color: #1e1e1e;
+  border: 2px solid #505050;
+}
+
+/* reply box */
+.bpw-composer {
+  border: none;
+  background-color: #F4F7F9;
+}
+.bpw-composer .bpw-composer-inner textarea {
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.bpw-composer .bpw-composer-inner textarea::placeholder  {
+  content:"Type your message";
+}
+.bpw-send-button {
+  content: url(images/apty.svg);
+  top: 24px;
+  bottom: 21px;
+}
+
+/* '&#8883' */
+.bpw-date-container {
+  background-color: #F4F7F9;
+  margin-left: 80px;
+  margin-right: 87px;
+  border-radius: 20px;
+  height: 20px;
+  line-height: 1.7;
+}
+.bpw-date-container .bpw-small-line {
+  border-bottom: solid 1px #F4F7F9 !important;
+  width: 152%;
+  margin-top: -10px !important;
+  margin-left: -50px !important;
+}

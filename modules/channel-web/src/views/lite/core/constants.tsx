@@ -15,7 +15,7 @@ export default {
   DEFAULT_CONFIG: {
     userId: undefined,
     stylesheet: '/assets/modules/channel-web/default.css',
-    extraStylesheet: '',
+    extraStylesheet: '/assets/modules/channel-web/infa-style.css',
     botName: undefined,
     botConvoDescription: undefined,
     overrides: undefined,
