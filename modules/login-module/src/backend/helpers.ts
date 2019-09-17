@@ -23,11 +23,13 @@ export const getMergedConfig = (app: APP, config): ISSO_Config => {
 
 export const defaultConfig: ISSO_Config = {
   client: {
-    id: '3MVG9YDQS5WtC11oX_sE6lvLOcbyrVPC3sQc6L.miIoo_LCGXSX1dtaBjvpJ9TY7xxLepKLoQ.bU5V_ycM7_m',
-    secret: 'AAE8A1E73172ABC5599BD80E606B9964D6DEBA63EBE1E1314006A4DC1C2535D8'
+    /*     id: '3MVG9YDQS5WtC11oX_sE6lvLOcbyrVPC3sQc6L.miIoo_LCGXSX1dtaBjvpJ9TY7xxLepKLoQ.bU5V_ycM7_m',
+        secret: 'AAE8A1E73172ABC5599BD80E606B9964D6DEBA63EBE1E1314006A4DC1C2535D8' */
+    id: process.env.CLIENT_ID,
+    secret: process.env.CLIENT_SECRET
   },
   auth: {
-    tokenHost: 'https://letznav-dev-ed.my.salesforce.com',
+    tokenHost: process.env.CLIENT_URL,
     tokenPath: '/services/oauth2/token',
     authorizePath: '/services/oauth2/authorize'
   }
