@@ -14,7 +14,7 @@
     "bluebird": "^3.5.3",
     "bluebird-global": "^1.0.1",
     "classnames": "^2.2.6",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "ms": "^2.1.1",
     "nanoid": "^2.0.1",
