@@ -15,7 +15,7 @@
     "bluebird-global": "^1.0.1",
     "classnames": "^2.2.6",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "ms": "^2.1.1",
     "nanoid": "^2.0.1",
     "react-select": "^1.2.0",
